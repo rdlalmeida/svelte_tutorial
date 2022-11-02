@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # This repo is no longer maintained. Consider using `npm init vite` and selecting the `svelte` option or — if you want a full-fledged app framework and don't mind using pre-1.0 software — use [SvelteKit](https://kit.svelte.dev), the official application framework for Svelte.
 
 ---
@@ -105,3 +106,7 @@ Then, from within your project folder:
 npm run build
 surge public my-project.surge.sh
 ```
+=======
+# svelte_tutorial
+Source files for the Svelte tutorial in https://www.youtube.com/watch?v=3TVy6GdtNuQ
+>>>>>>> 538fa342b1bc071f5fb602a269034477a134c756
