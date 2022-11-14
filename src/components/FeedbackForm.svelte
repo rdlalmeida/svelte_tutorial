@@ -3,6 +3,7 @@
     import Card from './Card.svelte';
     import Button from './Button.svelte';
     import RatingSelect from './RatingSelect.svelte';
+    import {FeedbackStore} from '../stores.js';
 
     let style = "secondary"
     let rating = 10;
@@ -34,7 +35,11 @@
                 rating: +rating
             }
 
-            console.log(newFeedback);
+            FeedbackStore.update((currentFeedback) => {
+                return [newFeedback, ...currentFeedback];
+            });
+
+            text = '';
         }
     }
 </script>
